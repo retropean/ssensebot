@@ -1,10 +1,10 @@
 import scrapy
 
 class SsensebotItem(scrapy.Item):
-    name = Field()
-	price = Field()
-	brand = Field()
-	imgname = Field()
-	material = Field()
-	description = Field()
-    pass
+	name = scrapy.Field()
+	price = scrapy.Field()
+	brand = scrapy.Field()
+	imgname = scrapy.Field()
+	material = scrapy.Field()
+	description = scrapy.Field()
+	pass
