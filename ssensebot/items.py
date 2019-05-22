@@ -7,4 +7,7 @@ class SsensebotItem(scrapy.Item):
 	imgname = scrapy.Field()
 	material = scrapy.Field()
 	description = scrapy.Field()
-	pass
+	origin = scrapy.Field()
+	image_urls=scrapy.Field()
+	images=scrapy.Field()
+pass

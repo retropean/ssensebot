@@ -1,2 +1,5 @@
 httpcache
 *.pyc
+*.exe
+*.jpg
+*.csv
